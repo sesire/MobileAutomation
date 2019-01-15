@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite on Android Phone Of Amazon Mobile Web">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="platformType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Android Emulator"/>
+    <parameter name="version" value="9"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="url" value="https://www.amazon.com/"/>
+
+    <!--<parameter name="platformName" value="Android"/>-->
+     <!--<parameter name="moduleName" value="AmazonMobileWeb"/>-->
+
+
+    <test name="Amazon Home Page" preserve-order="true">
+        <classes>
+            <!--<class name="test.page.objects.HomePageTest"/>
+            <class name="test.page.objects.FooterTest"/>
+            <class name="test.page.objects.LogInUsingExcelSheetTest"/>
+            <class name="test.page.objects.LogInTest"/>-->
+            <class name="test.page.objects.BurgerButtonTest"/>
+
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

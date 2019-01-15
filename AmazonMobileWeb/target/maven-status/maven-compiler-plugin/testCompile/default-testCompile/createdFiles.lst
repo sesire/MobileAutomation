@@ -1,0 +1,10 @@
+page\objects\Footer.class
+page\objects\HomePage.class
+test\page\objects\LogInTest.class
+test\page\objects\FooterTest.class
+test\page\objects\LogInUsingExcelSheetTest.class
+page\objects\LogIN.class
+test\page\objects\BurgerButtonTest.class
+page\objects\BurgerButton.class
+application\page\base\ApplicationPageBase.class
+test\page\objects\HomePageTest.class

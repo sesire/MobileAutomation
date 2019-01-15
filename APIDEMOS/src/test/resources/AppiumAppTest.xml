@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite on Android Phone">
+
+    <!--<parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceName" value="Asus"/>
+    <parameter name="version" value="5.0"/>
+    <parameter name="moduleName" value="GoogleMap"/>
+    <parameter name="appName" value="gmap.apk"/>-->
+
+   <parameter name="OS" value="Android"/>
+   <parameter name="platformType" value="Phone"/>
+   <parameter name="deviceType" value="Emulator"/>
+   <parameter name="deviceName" value="Android Emulator"/>
+   <parameter name="version" value="9"/>
+    <!--<parameter name="moduleName" value="GoogleMap"/>-->
+   <parameter name="appName" value="appium.apk"/>
+
+    <!--{
+    "platformName": "Android",
+    "platformVersion": "7.0",
+    "deviceName": "Android Emulator",
+    "browserName": "Chrome"
+    }-->
+
+    <test name="Home page" preserve-order="true">
+        <classes><!--
+             <class name="test.page.objects.HomePageTest"/>
+             <class name="test.page.objects.DeviceTest"/>
+              <class name="test.page.objects.AppTest"/>
+            <class name="test.page.objects.ViewPageTest"/>
+            <class name="test.page.objects.AnimationPageTest"/>
+            <class name="test.page.objects.ViewDateTest"/>-->
+            <class name="test.page.objects.GraphicsTest"/>
+
+        </classes>
+    </test>
+</suite>
