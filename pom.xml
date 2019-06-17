@@ -12,6 +12,7 @@
         <module>Generics</module>
         <module>AmazonMobileWeb</module>
         <module>APIDEMOS</module>
+        <module>Ebay</module>
     </modules>
 
     <dependencyManagement>

@@ -5,8 +5,10 @@
     <parameter name="OS" value="Android"/>
     <parameter name="platformType" value="Phone"/>
     <parameter name="deviceType" value="Emulator"/>
-    <parameter name="deviceName" value="Android Emulator"/>
+    <parameter name="deviceName" value="Nexus 5"/>
     <parameter name="version" value="9"/>
+    <parameter name="moduleName" value="AmazonMobileWeb"/>
+    <parameter name="automationName" value="UiAutomator2"/>
     <parameter name="browserName" value="Chrome"/>
     <parameter name="url" value="https://www.amazon.com/"/>
 
@@ -20,7 +22,10 @@
             <class name="test.page.objects.FooterTest"/>
             <class name="test.page.objects.LogInUsingExcelSheetTest"/>
             <class name="test.page.objects.LogInTest"/>-->
-            <class name="test.page.objects.BurgerButtonTest"/>
+<!--        <class name="test.page.objects.BurgerButtonTest"/>-->
+<!--        <class name="test.page.objects.FooterTest"/>-->
+            <class name="test.page.objects.LogInTest"/>
+
 
         </classes>
     </test>

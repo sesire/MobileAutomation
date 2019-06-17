@@ -40,12 +40,12 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
-/**
- * Created by mrahman on 5/19/17.
- */
+
 public class MobileAPI {
 
     public static ExtentReports extent;
+
+
 
     @BeforeSuite
     public void extentSetup(ITestContext context) {

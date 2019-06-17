@@ -20,6 +20,8 @@ public class ApplicationPageBase extends MobileAPI {
     static TouchAction act = new TouchAction(ad);
 
 
+
+
     /**
     * helper methods*/
 

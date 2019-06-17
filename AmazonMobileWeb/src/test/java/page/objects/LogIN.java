@@ -8,8 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LogIN extends ApplicationPageBase {
 
         HomePage objOfHomePage = new HomePage();
-
-    String[] email= {"aaafnan","aaaff","Saeed","Muhammad","AR","Aisha"};
+    String[] email= {"sesire","ssr","Sisir","islam","TI","SESIRE"};
     String [] password= {"1543","654","87654","98765","87654","98765"};
 
         @FindBy(id="ap_email_login")

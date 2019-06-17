@@ -3,16 +3,24 @@ package application.page.base;
 import ExtentReport.TestLogger;
 import base.MobileAPI;
 import io.appium.java_client.TouchAction;
-import org.openqa.selenium.ScreenOrientation;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.testng.annotations.Test;
+
+import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class ApplicationPageBase extends MobileAPI {
 
     // initializing act variable to perform mobile action in different method
 
     TouchAction act = new TouchAction(ad);
+
+
+
 
     /**
      * making a common method for homePage where you click on Webelement and takes you
